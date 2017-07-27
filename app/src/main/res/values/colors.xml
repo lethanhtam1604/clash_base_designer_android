@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4FC3F7</color>
+    <color name="colorPrimaryDark">#2196F3</color>
+    <color name="colorPrimaryLight">#8090CAF9</color>
+    <color name="colorAccent">#FF4351</color>
+    <color name="colorRed">#E91E63</color>
+    <color name="colorGreen">#1BB082</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="light_White_1">#80FFFFFF</color>
+    <color name="light_White_2">#90FFFFFF</color>
+    <color name="light_White">#50FFFFFF</color>
+    <color name="blue">#00B1CD</color>
+    <color name="black_light">#10000000</color>
+    <color name="black_pressed">#20000000</color>
+    <color name="black_normal">#80000000</color>
+
+    <color name="text_enabled">#FFFFFFFF</color>
+    <color name="text_disabled">#4DFFFFFF</color>
+
+    <color name="custom_text_enabled">#4FC3F7</color>
+    <color name="custom_text_disabled">#4D000000</color>
+
+    <color name="indicatorColor">#18FFFF</color>indicatorColor
+
+    <color name="md_grey_200">#EEEEEE</color>
+    <color name="md_grey_300">#E0E0E0</color>
+    <color name="brown_black">#707070</color>
+    <color name="black_1">#99000000</color>
+
+    <color name="selected">#434F5D</color>
+
+    <color name="captureColor">#cccccc</color>
+    <color name="half_black">#808080</color>
+    <color name="main_color">#434F5D</color>
+
+    <color name="colorMain">#1AA79B</color>
+    <color name="colorSecond">#33B476</color>
+    <color name="colorFacebook">#3C5A98</color>
+    <color name="colorGoogle">#DD4D3E</color>
+</resources>

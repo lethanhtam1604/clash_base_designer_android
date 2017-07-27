@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/parentFL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adView"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar_collection" />
+
+        <com.ogaclejapan.smarttablayout.SmartTabLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/viewPagerTab"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tab_height"
+            android:background="@color/colorMain"
+            app:stl_customTabTextLayoutId="@layout/custom_tab"
+            app:stl_customTabTextViewId="@+id/custom_tab_text"
+            app:stl_distributeEvenly="true"
+            app:stl_dividerColor="@color/colorMain"
+            app:stl_indicatorColor="@color/white"
+            app:stl_indicatorInterpolation="linear"
+            app:stl_indicatorThickness="3dp"
+            app:stl_overlineColor="@color/white"
+            app:stl_underlineThickness="1dp" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/viewPagerTab" />
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:visibility="gone"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="@string/banner_home_footer" />
+
+    <RelativeLayout
+        android:id="@+id/abstractRL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_1"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adView"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp">
+
+        <com.melnykov.fab.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="12dp"
+            android:src="@drawable/town_hall_1"
+            app:fab_colorNormal="@color/md_orange_800"
+            app:fab_colorPressed="@color/black_pressed"
+            app:fab_colorRipple="@color/black_pressed"
+            app:fab_type="normal" />
+
+        <ListView
+            android:layout_gravity="bottom|right"
+            android:id="@+id/townHallLV"
+            android:layout_width="230dp"
+            android:layout_height="300dp"
+            android:background="@drawable/border_white"
+            android:divider="@null"
+            android:layout_margin="12dp"
+            android:dividerHeight="0dp"
+            android:scrollbarSize="4dp"
+            android:scrollbarThumbVertical="@color/colorMain"
+            android:visibility="gone" />
+    </FrameLayout>
+
+
+</RelativeLayout>

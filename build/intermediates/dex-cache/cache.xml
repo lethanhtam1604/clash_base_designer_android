@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/TamLe/Freelancer/clash-base-designer/ClashBaseDesigner/app/libs/gson-2.6.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="/Users/TamLe/Freelancer/clash-base-designer/ClashBaseDesigner/app/build/intermediates/pre-dexed/debug/gson-2.6.2_b1bd19258d8c708f954d0ff59825597623cb4208.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Clash Base Designer for COC</string>
+    <string name="clash_base_designer">Clash Base Designer for COC</string>
+    <string name="favourite">Favourite</string>
+    <string name="settings">Settings</string>
+    <string name="more">More</string>
+    <string name="our_collection">OUR\nCOLLECTION</string>
+    <string name="brown_our_layout_collection">Brown our layout\ncollection</string>
+    <string name="our_layout">OUR\nLAYOUT</string>
+    <string name="pick_a_layout_from_gallery">Pick a layout from\ngallery</string>
+    <string name="town_hall">Town Hall</string>
+    <string name="war">War</string>
+    <string name="trophy">Trophy</string>
+    <string name="farming">Farming</string>
+    <string name="hybrid">Hybrid</string>
+    <string name="full_view">Full View</string>
+
+    <!-- AdMob ad unit IDs -->
+    <string name="banner_home_footer">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_full_screen">ca-app-pub-3940256099942544/1033173712</string>
+
+</resources>

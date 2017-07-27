@@ -1,0 +1,41 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/TamLe/Freelancer/clash-base-designer/ClashBaseDesigner/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/TamLe/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/TamLe/Freelancer/clash-base-designer/ClashBaseDesigner/app/.externalNativeBuild/cmake/release/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/TamLe/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/TamLe/Freelancer/clash-base-designer/ClashBaseDesigner/app/.externalNativeBuild/cmake/release/x86 --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/TamLe/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/TamLe/Library/Android/sdk/ndk-bundle/platforms/android-15/arch-x86  -Dnative_lib_EXPORTS -isystem /Users/TamLe/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/TamLe/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/TamLe/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/TamLe/Freelancer/clash-base-designer/ClashBaseDesigner/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/TamLe/Freelancer/clash-base-designer/ClashBaseDesigner/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "/Users/TamLe/Freelancer/clash-base-designer/ClashBaseDesigner/app/build/intermediates/cmake/release/obj/x86/libnative-lib.so",
+			"toolchain" : "17601525559469629624"
+		}
+	},
+	"toolchains" : 
+	{
+		"17601525559469629624" : 
+		{
+			"cCompilerExecutable" : "/Users/TamLe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/TamLe/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
